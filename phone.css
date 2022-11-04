@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navigation */
+.navigation {
+    height: 20px;
+    width: 100%;
+}
+.navigation a {
+    font-size: 15px;
+    padding: 20px 10px;
+}
+#search {
+    right: 0rem;
+    height: 13px;
+}
+#search input{
+    border-radius: 10px;
+    border: 0;
+    padding: 5px 10px;
+    width: 100px;
+}
