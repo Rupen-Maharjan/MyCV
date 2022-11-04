@@ -1,0 +1,178 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+body{
+    background-color: #EDEDED;
+}
+/* Global*/
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 2;
+    color: #40514E;
+}
+h1 {
+    position: absolute;
+    top: 150px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    color: #66BFBF;
+}
+h1, h2, h3, p:hover{
+    cursor: default;
+}
+h2 {
+    font-family: 'Mukta', sans-serif;
+    color: #66BFBF;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Mukta', sans-serif;
+    color: #66BFBF;
+}
+
+hr {
+    border: #B7C4CF dotted 8px;
+    border-bottom: none;
+    width: 2%;
+    margin: 100px auto;
+}
+
+/* Navigation */
+.navigation {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 50px;
+    background-color: #CDF0EA;
+    font-family: 'Inconsolata', monospace;
+}
+
+.navigation a {
+    display: block;
+    padding: 50px 20px;
+    color: #66BFBF;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navigation a:hover{
+    background-color: #66BFBF;
+    color: #CDF0EA;
+}
+#search {
+    display: flex;
+    position: absolute;
+    right: 9rem;
+    height: 30px;
+}
+#search input{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    border: 0;
+    padding: 0 10px;
+}
+
+/* header */
+.header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    background-color: #CDF0EA;
+}
+
+.topCloud {
+    position: absolute;
+    top: 50px;
+    right: 9rem;
+}
+
+.bottomCloud {
+    position: absolute;
+    left: 12.5rem;
+    top: 18.75rem;
+}
+
+.header p {
+    position: absolute;
+    top: 250px;
+    font-size: 2rem;
+    color: #66BFBF;
+}
+
+.mountain {
+    margin: 300px auto 0;
+    height: 300px;
+}
+
+/*Section */
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section img {
+    margin: 100px 0 10px;
+    height: 200px;
+}
+
+.section h2 {
+    margin-top: 10px;
+}
+
+.section p {
+    text-align: left;
+}
+
+/* My Skills */
+.MySkills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contact */
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact p {
+    line-height: 3;
+}
+
+/* contactMe */
+.contactMe {
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+
+a img{
+    height: 30px;
+    padding: 5px 10px;
+    margin-bottom: 50px;
+}
+
+footer p {
+    position: absolute;
+    bottom: 0px;
+    color: #EAF6F6;
+    font-size: 15px;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #66BFBF;
+    padding: 0px 100px;
+    position: relative;
+}
