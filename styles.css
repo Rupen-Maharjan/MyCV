@@ -153,18 +153,18 @@ hr {
 .contactMe {
     display: flex;
     position: absolute;
-    top: 0;
+    top: 33px;
 }
 
 a img{
     height: 30px;
-    padding: 5px 10px;
+    padding: 0 10px;
     margin-bottom: 50px;
 }
 
 footer p {
     position: absolute;
-    bottom: 0px;
+    bottom: 37px;
     color: #EAF6F6;
     font-size: 15px;
 
@@ -173,6 +173,6 @@ footer{
     display: flex;
     justify-content: center;
     background-color: #66BFBF;
-    padding: 0px 100px;
+    padding: 50px 100px 100px;
     position: relative;
 }
