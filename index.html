@@ -1,177 +1,72 @@
-/* CSS reset */
-* {
-    margin: 0;
-    padding: 0;
-    user-select: none;
-}
-body{
-    background-color: #EDEDED;
-}
-/* Global*/
-p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    line-height: 2;
-    color: #40514E;
-}
-h1 {
-    position: absolute;
-    top: 150px;
-    font-family: 'Sacramento', cursive;
-    font-size: 5rem;
-    color: #66BFBF;
-}
-h1, h2, h3, p:hover{
-    cursor: default;
-}
-h2 {
-    font-family: 'Mukta', sans-serif;
-    color: #66BFBF;
-    font-size: 2.5rem;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-h3 {
-    font-family: 'Mukta', sans-serif;
-    color: #66BFBF;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="phone.css">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon//favicon-16x16.png">
+    <link rel="manifest" href="favicon//site.webmanifest">
+    <link rel="mask-icon" href="favicon//safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Mukta&family=Sacramento&display=swap"
+        rel="stylesheet">
+</head>
 
-hr {
-    border: #B7C4CF dotted 8px;
-    border-bottom: none;
-    width: 2%;
-    margin: 100px auto;
-}
+<body>
+    <nav class="navigation">
+        <a href="#home">Home</a>
+        <a href="#searvice">Service</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact </a>
+        <div id="search">
+            <input type="text" name="search" placeholder="Search...">
+        </div>
+    </nav>
+    <header class="header">
+        <img class="topCloud" src="img/cloud.png" alt="cloud">
+        <h1>I'm Rupen</h1>
+        <p>a Programmer</p>
+        <img class="bottomCloud" src="img/cloud.png" alt="cloud">
+        <img class="mountain" src="img/mountain.png" alt="mountain">
+    </header>
+    <section class="section">
+        <img src="img/300047907_1676917326042028_5866850341128135929_n-modified.png" alt="">
+        <h2>Hlo...</h2>
+        <p>My name is Rupen Maharjan. I am a Front end developer.</p>
+    </section>
+    <hr>
+    <section class="MySkills">
+        <h2>My Skills.</h2>
+        <p>HTML, CSS, JS and C++.</p>
+    </section>
+    <hr>
+    <section class="Contact">
+        <h2>Get in touch.</h2>
+        <h3>How to contacht me?</h3>
+        <p>Yu can contact me via Facebook, Instagram, Whatsapp, Viber or Email.</p>
+    </section>
+    <footer>
+        <div class="contactMe">
+            <a target="_blank" href="https://www.facebook.com/"><img src="icon/facebook.png" alt=""></a>
+            <a target="_blank" href="https://www.instagram.com/"><img src="icon/icons8-instagram-240.png" alt=""></a>
+            <a target="_blank" href="https://web.whatsapp.com/"><img src="icon/whatsapp.png" alt=""></a>
+            <a target="_blank" class="viber" href="https://account.viber.com/en/login"><img
+                    src="icon/icons8-viber-240.png" alt=""></a>
+            <a target="_blank" href="https://mail.google.com/"><img src="icon/gmail.png" alt=""></a>
+        </div>
+        <p>© Rupen Maharjan.</p>
+    </footer>
+</body>
 
-/* Navigation */
-.navigation {
-    display: flex;
-    position: relative;
-    align-items: center;
-    width: 100%;
-    background-color: #CDF0EA;
-    font-family: 'Inconsolata', monospace;
-}
-
-.navigation a {
-    display: block;
-    padding: 20px 20px;
-    color: #66BFBF;
-    text-decoration: none;
-    font-size: 20px;
-}
-.navigation a:hover{
-    background-color: #66BFBF;
-    color: #CDF0EA;
-}
-#search {
-    display: block;
-    position: absolute;
-    right: 9rem;
-}
-#search input{
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 20px;
-    border: 0;
-    padding: 5px 10px;
-}
-
-/* header */
-.header {
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: center;
-    background-color: #CDF0EA;
-}
-
-.topCloud {
-    position: absolute;
-    top: 50px;
-    right: 9rem;
-}
-
-.bottomCloud {
-    position: absolute;
-    left: 12.5rem;
-    top: 18.75rem;
-}
-
-.header p {
-    position: absolute;
-    top: 250px;
-    font-size: 2rem;
-    color: #66BFBF;
-}
-
-.mountain {
-    margin: 300px auto 0;
-    height: 300px;
-}
-
-/*Section */
-.section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.section img {
-    margin: 100px 0 10px;
-    height: 200px;
-}
-
-.section h2 {
-    margin-top: 10px;
-}
-
-.section p {
-    text-align: left;
-}
-
-/* My Skills */
-.MySkills {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Contact */
-.Contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.Contact p {
-    line-height: 3;
-}
-
-/* contactMe */
-.contactMe {
-    display: flex;
-    position: absolute;
-    top: 33px;
-}
-
-a img{
-    height: 30px;
-    padding: 0 10px;
-    margin-bottom: 50px;
-}
-
-footer p {
-    position: absolute;
-    bottom: 37px;
-    color: #EAF6F6;
-    font-size: 15px;
-
-}
-footer{
-    display: flex;
-    justify-content: center;
-    background-color: #66BFBF;
-    padding: 50px 100px 100px;
-    position: relative;
-}
+</html>
