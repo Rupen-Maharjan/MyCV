@@ -47,14 +47,14 @@ hr {
     display: flex;
     position: relative;
     align-items: center;
-    height: 50px;
+    width: 100%;
     background-color: #CDF0EA;
     font-family: 'Inconsolata', monospace;
 }
 
 .navigation a {
     display: block;
-    padding: 50px 20px;
+    padding: 20px 20px;
     color: #66BFBF;
     text-decoration: none;
     font-size: 20px;
@@ -64,10 +64,9 @@ hr {
     color: #CDF0EA;
 }
 #search {
-    display: flex;
+    display: block;
     position: absolute;
     right: 9rem;
-    height: 30px;
 }
 #search input{
     font-family: 'Montserrat', sans-serif;
